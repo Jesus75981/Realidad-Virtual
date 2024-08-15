@@ -79,9 +79,9 @@ namespace Gestion_Personajes
     {
         static void Main(string[] args)
         {
-            bool uwu = true;
+            bool siu = true;
 
-            while (uwu)
+            while (siu)
             {
                 Console.Clear();
                 Console.WriteLine("1. Crear Personaje");
@@ -148,7 +148,7 @@ namespace Gestion_Personajes
                         break;
 
                     case "5":
-                        uwu = false;
+                        siu = false;
                         break;
 
                     default:
@@ -156,7 +156,7 @@ namespace Gestion_Personajes
                         break;
                 }
 
-                if (uwu)
+                if (siu)
                 {
                     Console.WriteLine("\nPresione cualquier tecla para continuar...");
                     Console.ReadKey();
