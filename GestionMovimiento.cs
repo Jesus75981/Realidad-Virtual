@@ -33,8 +33,8 @@ namespace Gestion_Movimientos_Juego
         {
             Personaje personaje = new Personaje("Yo");
 
-            bool uwu = true;
-            while (uwu)
+            bool siu = true;
+            while (siu)
             {
                 Console.Clear();
                 Console.WriteLine("1. Mover Personaje");
@@ -67,7 +67,7 @@ namespace Gestion_Movimientos_Juego
                         break;
                 }
 
-                if (uwu)
+                if (siu)
                 {
                     Console.WriteLine("\nPresione cualquier tecla para continuar...");
                     Console.ReadKey();
